@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/hannes/Projekt/Dig_ling_div_UNT/dataset_creation/extraction.py", line 1, in <module>
+    import utils as utils
+  File "/Users/hannes/Projekt/Dig_ling_div_UNT/dataset_creation/utils.py", line 1, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
