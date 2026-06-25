@@ -8,7 +8,7 @@ df_lang = read_delim("data/processed/language_data.csv",
                             delim = ";", escape_double = FALSE, trim_ws = TRUE)
 
 # read glottolog data
-df_glotto = read_csv("data/raw/glottolog.csv")
+df_glotto = read_csv("data/processed/glottolog.csv")
 
 
 # extract iso, area, classification, family, lat, long
