@@ -1,0 +1,737 @@
+0
+: 
+{value: 'AR', text: 'AR'}
+1
+: 
+{value: 'MY', text: 'MY'}
+2
+: 
+{value: 'GB', text: 'GB'}
+3
+: 
+{value: 'BR', text: 'BR'}
+4
+: 
+{value: 'JP', text: 'JP'}
+5
+: 
+{value: 'CL', text: 'CL'}
+6
+: 
+{value: 'ES', text: 'ES'}
+7
+: 
+{value: 'IN', text: 'IN'}
+8
+: 
+{value: 'LB', text: 'LB'}
+9
+: 
+{value: 'US', text: 'US'}
+10
+: 
+{value: 'CO', text: 'CO'}
+11
+: 
+{value: 'TR', text: 'TR'}
+12
+: 
+{value: 'DZ', text: 'DZ'}
+13
+: 
+{value: 'MX', text: 'MX'}
+14
+: 
+{value: 'SA', text: 'SA'}
+15
+: 
+{value: 'PH', text: 'PH'}
+16
+: 
+{value: 'ID', text: 'ID'}
+17
+: 
+{value: 'RU', text: 'RU'}
+18
+: 
+{value: 'JO', text: 'JO'}
+19
+: 
+{value: 'FR', text: 'FR'}
+20
+: 
+{value: 'CR', text: 'CR'}
+21
+: 
+{value: 'NA', text: 'NA'}
+22
+: 
+{value: 'IE', text: 'IE'}
+23
+: 
+{value: 'NG', text: 'NG'}
+24
+: 
+{value: 'BE', text: 'BE'}
+25
+: 
+{value: 'KW', text: 'KW'}
+26
+: 
+{value: 'LV', text: 'LV'}
+27
+: 
+{value: 'OM', text: 'OM'}
+28
+: 
+{value: 'PT', text: 'PT'}
+29
+: 
+{value: 'DO', text: 'DO'}
+30
+: 
+{value: 'TW', text: 'TW'}
+31
+: 
+{value: 'NO', text: 'NO'}
+32
+: 
+{value: 'ZA', text: 'ZA'}
+33
+: 
+{value: 'EG', text: 'EG'}
+34
+: 
+{value: 'TH', text: 'TH'}
+35
+: 
+{value: 'UA', text: 'UA'}
+36
+: 
+{value: 'IT', text: 'IT'}
+37
+: 
+{value: 'AU', text: 'AU'}
+38
+: 
+{value: 'DE', text: 'DE'}
+39
+: 
+{value: 'PK', text: 'PK'}
+40
+: 
+{value: 'BH', text: 'BH'}
+41
+: 
+{value: 'UY', text: 'UY'}
+42
+: 
+{value: 'CH', text: 'CH'}
+43
+: 
+{value: 'AE', text: 'AE'}
+44
+: 
+{value: 'GR', text: 'GR'}
+45
+: 
+{value: 'NZ', text: 'NZ'}
+46
+: 
+{value: 'IQ', text: 'IQ'}
+47
+: 
+{value: 'BS', text: 'BS'}
+48
+: 
+{value: 'LK', text: 'LK'}
+49
+: 
+{value: 'RO', text: 'RO'}
+50
+: 
+{value: 'CA', text: 'CA'}
+51
+: 
+{value: 'NI', text: 'NI'}
+52
+: 
+{value: 'BN', text: 'BN'}
+53
+: 
+{value: 'KR', text: 'KR'}
+54
+: 
+{value: 'EC', text: 'EC'}
+55
+: 
+{value: 'PE', text: 'PE'}
+56
+: 
+{value: 'FI', text: 'FI'}
+57
+: 
+{value: 'CD', text: 'CD'}
+58
+: 
+{value: 'JM', text: 'JM'}
+59
+: 
+{value: 'PL', text: 'PL'}
+60
+: 
+{value: 'HN', text: 'HN'}
+61
+: 
+{value: 'NL', text: 'NL'}
+62
+: 
+{value: 'VE', text: 'VE'}
+63
+: 
+{value: 'DK', text: 'DK'}
+64
+: 
+{value: 'ZM', text: 'ZM'}
+65
+: 
+{value: 'CY', text: 'CY'}
+66
+: 
+{value: 'CM', text: 'CM'}
+67
+: 
+{value: 'QA', text: 'QA'}
+68
+: 
+{value: 'UG', text: 'UG'}
+69
+: 
+{value: 'GT', text: 'GT'}
+70
+: 
+{value: 'TT', text: 'TT'}
+71
+: 
+{value: 'IR', text: 'IR'}
+72
+: 
+{value: 'BA', text: 'BA'}
+73
+: 
+{value: 'SE', text: 'SE'}
+74
+: 
+{value: 'KE', text: 'KE'}
+75
+: 
+{value: 'MA', text: 'MA'}
+76
+: 
+{value: 'PA', text: 'PA'}
+77
+: 
+{value: 'YE', text: 'YE'}
+78
+: 
+{value: 'IL', text: 'IL'}
+79
+: 
+{value: 'HK', text: 'HK'}
+80
+: 
+{value: 'SN', text: 'SN'}
+81
+: 
+{value: 'GH', text: 'GH'}
+82
+: 
+{value: 'AT', text: 'AT'}
+83
+: 
+{value: 'BY', text: 'BY'}
+84
+: 
+{value: 'CU', text: 'CU'}
+85
+: 
+{value: 'AZ', text: 'AZ'}
+86
+: 
+{value: 'CN', text: 'CN'}
+87
+: 
+{value: 'SG', text: 'SG'}
+88
+: 
+{value: 'RS', text: 'RS'}
+89
+: 
+{value: 'MW', text: 'MW'}
+90
+: 
+{value: 'PY', text: 'PY'}
+91
+: 
+{value: 'AF', text: 'AF'}
+92
+: 
+{value: 'AM', text: 'AM'}
+93
+: 
+{value: 'CZ', text: 'CZ'}
+94
+: 
+{value: 'MQ', text: 'MQ'}
+95
+: 
+{value: 'MN', text: 'MN'}
+96
+: 
+{value: 'BW', text: 'BW'}
+97
+: 
+{value: 'SV', text: 'SV'}
+98
+: 
+{value: 'VN', text: 'VN'}
+99
+: 
+{value: 'HT', text: 'HT'}
+[100 … 199]
+100
+: 
+{value: 'XK', text: 'XK'}
+101
+: 
+{value: 'TN', text: 'TN'}
+102
+: 
+{value: 'KH', text: 'KH'}
+103
+: 
+{value: 'SY', text: 'SY'}
+104
+: 
+{value: 'CI', text: 'CI'}
+105
+: 
+{value: 'BD', text: 'BD'}
+106
+: 
+{value: 'EE', text: 'EE'}
+107
+: 
+{value: 'PR', text: 'PR'}
+108
+: 
+{value: 'PG', text: 'PG'}
+109
+: 
+{value: 'MT', text: 'MT'}
+110
+: 
+{value: 'UZ', text: 'UZ'}
+111
+: 
+{value: 'SR', text: 'SR'}
+112
+: 
+{value: 'LY', text: 'LY'}
+113
+: 
+{value: 'SI', text: 'SI'}
+114
+: 
+{value: 'MP', text: 'MP'}
+115
+: 
+{value: 'ME', text: 'ME'}
+116
+: 
+{value: 'GN', text: 'GN'}
+117
+: 
+{value: 'SD', text: 'SD'}
+118
+: 
+{value: 'AW', text: 'AW'}
+119
+: 
+{value: 'KZ', text: 'KZ'}
+120
+: 
+{value: 'MD', text: 'MD'}
+121
+: 
+{value: 'BZ', text: 'BZ'}
+122
+: 
+{value: 'IS', text: 'IS'}
+123
+: 
+{value: 'NP', text: 'NP'}
+124
+: 
+{value: 'HU', text: 'HU'}
+125
+: 
+{value: 'GA', text: 'GA'}
+126
+: 
+{value: 'BB', text: 'BB'}
+127
+: 
+{value: 'MM', text: 'MM'}
+128
+: 
+{value: 'RW', text: 'RW'}
+129
+: 
+{value: 'LT', text: 'LT'}
+130
+: 
+{value: 'BO', text: 'BO'}
+131
+: 
+{value: 'TZ', text: 'TZ'}
+132
+: 
+{value: 'KY', text: 'KY'}
+133
+: 
+{value: 'AQ', text: 'AQ'}
+134
+: 
+{value: 'GP', text: 'GP'}
+135
+: 
+{value: 'GU', text: 'GU'}
+136
+: 
+{value: 'HR', text: 'HR'}
+137
+: 
+{value: 'BG', text: 'BG'}
+138
+: 
+{value: 'MU', text: 'MU'}
+139
+: 
+{value: 'AG', text: 'AG'}
+140
+: 
+{value: 'GF', text: 'GF'}
+141
+: 
+{value: 'SK', text: 'SK'}
+142
+: 
+{value: 'RE', text: 'RE'}
+143
+: 
+{value: 'LA', text: 'LA'}
+144
+: 
+{value: 'BJ', text: 'BJ'}
+145
+: 
+{value: 'MC', text: 'MC'}
+146
+: 
+{value: 'AO', text: 'AO'}
+147
+: 
+{value: 'SZ', text: 'SZ'}
+148
+: 
+{value: 'MG', text: 'MG'}
+149
+: 
+{value: 'GM', text: 'GM'}
+150
+: 
+{value: 'LS', text: 'LS'}
+151
+: 
+{value: 'MO', text: 'MO'}
+152
+: 
+{value: 'MZ', text: 'MZ'}
+153
+: 
+{value: 'NE', text: 'NE'}
+154
+: 
+{value: 'GE', text: 'GE'}
+155
+: 
+{value: 'ZW', text: 'ZW'}
+156
+: 
+{value: 'SX', text: 'SX'}
+157
+: 
+{value: 'AD', text: 'AD'}
+158
+: 
+{value: 'LC', text: 'LC'}
+159
+: 
+{value: 'SO', text: 'SO'}
+160
+: 
+{value: 'KG', text: 'KG'}
+161
+: 
+{value: 'MR', text: 'MR'}
+162
+: 
+{value: 'LU', text: 'LU'}
+163
+: 
+{value: 'GI', text: 'GI'}
+164
+: 
+{value: 'NC', text: 'NC'}
+165
+: 
+{value: 'PF', text: 'PF'}
+166
+: 
+{value: 'VC', text: 'VC'}
+167
+: 
+{value: 'MK', text: 'MK'}
+168
+: 
+{value: 'GD', text: 'GD'}
+169
+: 
+{value: 'ML', text: 'ML'}
+170
+: 
+{value: 'BM', text: 'BM'}
+171
+: 
+{value: 'IM', text: 'IM'}
+172
+: 
+{value: 'FJ', text: 'FJ'}
+173
+: 
+{value: 'VA', text: 'VA'}
+174
+: 
+{value: 'MV', text: 'MV'}
+175
+: 
+{value: 'AL', text: 'AL'}
+176
+: 
+{value: 'FO', text: 'FO'}
+177
+: 
+{value: 'DM', text: 'DM'}
+178
+: 
+{value: 'VI', text: 'VI'}
+179
+: 
+{value: 'TC', text: 'TC'}
+180
+: 
+{value: 'TG', text: 'TG'}
+181
+: 
+{value: 'GG', text: 'GG'}
+182
+: 
+{value: 'AI', text: 'AI'}
+183
+: 
+{value: 'BF', text: 'BF'}
+184
+: 
+{value: 'FM', text: 'FM'}
+185
+: 
+{value: 'VG', text: 'VG'}
+186
+: 
+{value: 'GL', text: 'GL'}
+187
+: 
+{value: 'SM', text: 'SM'}
+188
+: 
+{value: 'BI', text: 'BI'}
+189
+: 
+{value: 'SC', text: 'SC'}
+190
+: 
+{value: 'CG', text: 'CG'}
+191
+: 
+{value: 'TJ', text: 'TJ'}
+192
+: 
+{value: 'YT', text: 'YT'}
+193
+: 
+{value: 'ET', text: 'ET'}
+194
+: 
+{value: 'WS', text: 'WS'}
+195
+: 
+{value: 'KN', text: 'KN'}
+196
+: 
+{value: 'CW', text: 'CW'}
+197
+: 
+{value: 'TL', text: 'TL'}
+198
+: 
+{value: 'SL', text: 'SL'}
+199
+: 
+{value: 'IO', text: 'IO'}
+[200 … 244]
+200
+: 
+{value: 'AS', text: 'AS'}
+201
+: 
+{value: 'UM', text: 'UM'}
+202
+: 
+{value: 'CV', text: 'CV'}
+203
+: 
+{value: 'BV', text: 'BV'}
+204
+: 
+{value: 'GY', text: 'GY'}
+205
+: 
+{value: 'KM', text: 'KM'}
+206
+: 
+{value: 'KP', text: 'KP'}
+207
+: 
+{value: 'MH', text: 'MH'}
+208
+: 
+{value: 'LR', text: 'LR'}
+209
+: 
+{value: 'MF', text: 'MF'}
+210
+: 
+{value: 'ST', text: 'ST'}
+211
+: 
+{value: 'DJ', text: 'DJ'}
+212
+: 
+{value: 'PM', text: 'PM'}
+213
+: 
+{value: 'TO', text: 'TO'}
+214
+: 
+{value: 'TD', text: 'TD'}
+215
+: 
+{value: 'BQ', text: 'BQ'}
+216
+: 
+{value: 'BT', text: 'BT'}
+217
+: 
+{value: 'LI', text: 'LI'}
+218
+: 
+{value: 'SB', text: 'SB'}
+219
+: 
+{value: 'VU', text: 'VU'}
+220
+: 
+{value: 'TF', text: 'TF'}
+221
+: 
+{value: 'FK', text: 'FK'}
+222
+: 
+{value: 'TM', text: 'TM'}
+223
+: 
+{value: 'CC', text: 'CC'}
+224
+: 
+{value: 'GQ', text: 'GQ'}
+225
+: 
+{value: 'KI', text: 'KI'}
+226
+: 
+{value: 'GW', text: 'GW'}
+227
+: 
+{value: 'BL', text: 'BL'}
+228
+: 
+{value: 'PS', text: 'PS'}
+229
+: 
+{value: 'AX', text: 'AX'}
+230
+: 
+{value: 'CF', text: 'CF'}
+231
+: 
+{value: 'MS', text: 'MS'}
+232
+: 
+{value: 'NU', text: 'NU'}
+233
+: 
+{value: 'PW', text: 'PW'}
+234
+: 
+{value: 'JE', text: 'JE'}
+235
+: 
+{value: 'CX', text: 'CX'}
+236
+: 
+{value: 'NR', text: 'NR'}
+237
+: 
+{value: 'SH', text: 'SH'}
+238
+: 
+{value: 'ER', text: 'ER'}
+239
+: 
+{value: 'TV', text: 'TV'}
+240
+: 
+{value: 'HM', text: 'HM'}
+241
+: 
+{value: 'EH', text: 'EH'}
+242
+: 
+{value: 'CK', text: 'CK'}
+243
+: 
+{value: 'GS', text: 'GS'}
+244
+: 
+{value: 'PN', text: 'PN'}

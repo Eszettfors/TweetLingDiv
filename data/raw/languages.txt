@@ -1,0 +1,216 @@
+0
+: 
+{value: 'es', text: 'es'}
+1
+: 
+{value: 'in', text: 'in'}
+2
+: 
+{value: 'pt', text: 'pt'}
+3
+: 
+{value: 'ja', text: 'ja'}
+4
+: 
+{value: 'en', text: 'en'}
+5
+: 
+{value: 'hi', text: 'hi'}
+6
+: 
+{value: 'ar', text: 'ar'}
+7
+: 
+{value: 'it', text: 'it'}
+8
+: 
+{value: 'ru', text: 'ru'}
+9
+: 
+{value: 'tr', text: 'tr'}
+10
+: 
+{value: 'tl', text: 'tl'}
+11
+: 
+{value: 'fr', text: 'fr'}
+12
+: 
+{value: 'pl', text: 'pl'}
+13
+: 
+{value: 'lv', text: 'lv'}
+14
+: 
+{value: 'th', text: 'th'}
+15
+: 
+{value: 'vi', text: 'vi'}
+16
+: 
+{value: 'ur', text: 'ur'}
+17
+: 
+{value: 'da', text: 'da'}
+18
+: 
+{value: 'de', text: 'de'}
+19
+: 
+{value: 'lt', text: 'lt'}
+20
+: 
+{value: 'ko', text: 'ko'}
+21
+: 
+{value: 'hu', text: 'hu'}
+22
+: 
+{value: 'fi', text: 'fi'}
+23
+: 
+{value: 'ta', text: 'ta'}
+24
+: 
+{value: 'el', text: 'el'}
+25
+: 
+{value: 'et', text: 'et'}
+26
+: 
+{value: 'sv', text: 'sv'}
+27
+: 
+{value: 'nl', text: 'nl'}
+28
+: 
+{value: 'ckb', text: 'ckb'}
+29
+: 
+{value: 'id', text: 'id'}
+30
+: 
+{value: 'sl', text: 'sl'}
+31
+: 
+{value: 'ht', text: 'ht'}
+32
+: 
+{value: 'cy', text: 'cy'}
+33
+: 
+{value: 'iw', text: 'iw'}
+34
+: 
+{value: 'is', text: 'is'}
+35
+: 
+{value: 'lo', text: 'lo'}
+36
+: 
+{value: 'eu', text: 'eu'}
+37
+: 
+{value: 'sk', text: 'sk'}
+38
+: 
+{value: 'ro', text: 'ro'}
+39
+: 
+{value: 'zh', text: 'zh'}
+40
+: 
+{value: 'fa', text: 'fa'}
+41
+: 
+{value: 'ca', text: 'ca'}
+42
+: 
+{value: 'kn', text: 'kn'}
+43
+: 
+{value: 'bg', text: 'bg'}
+44
+: 
+{value: 'mr', text: 'mr'}
+45
+: 
+{value: 'uk', text: 'uk'}
+46
+: 
+{value: 'sr', text: 'sr'}
+47
+: 
+{value: 'cs', text: 'cs'}
+48
+: 
+{value: 'no', text: 'no'}
+49
+: 
+{value: 'ne', text: 'ne'}
+50
+: 
+{value: 'ml', text: 'ml'}
+51
+: 
+{value: 'sd', text: 'sd'}
+52
+: 
+{value: 'my', text: 'my'}
+53
+: 
+{value: 'bs', text: 'bs'}
+54
+: 
+{value: 'bn', text: 'bn'}
+55
+: 
+{value: 'gu', text: 'gu'}
+56
+: 
+{value: 'or', text: 'or'}
+57
+: 
+{value: 'hr', text: 'hr'}
+58
+: 
+{value: 'pa', text: 'pa'}
+59
+: 
+{value: 'si', text: 'si'}
+60
+: 
+{value: 'te', text: 'te'}
+61
+: 
+{value: 'ps', text: 'ps'}
+62
+: 
+{value: 'dv', text: 'dv'}
+63
+: 
+{value: 'ka', text: 'ka'}
+64
+: 
+{value: 'hy', text: 'hy'}
+65
+: 
+{value: 'am', text: 'am'}
+66
+: 
+{value: 'km', text: 'km'}
+67
+: 
+{value: 'he', text: 'he'}
+68
+: 
+{value: 'bo', text: 'bo'}
+69
+: 
+{value: 'iu', text: 'iu'}
+70
+: 
+{value: 'ug', text: 'ug'}
+71
+: 
+{value: 'chr', text: 'chr'}
