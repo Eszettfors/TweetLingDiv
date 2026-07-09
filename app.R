@@ -8,11 +8,9 @@ library(sf)
 library(ggrepel)
 library(treemapify)
 library(colorspace)
+library(plotly)
 
 
-
-# set wd
-setwd("~/Projekt/Dig_ling_div_UNT")
 
 
 # set theme
@@ -171,28 +169,31 @@ get_languages_by_continent = function(data = df_tweets, continents, y = 2021) {
 }
 
 
-get_country_comparison_country_ts = function(data = df_diversity, country = c("Austria", "Germany"), measure = "richness"){
+get_diversity_ts = function(data = df_diversity, country = "Austria", measure = "richness"){
   # this function takes two or more countries, a diversity measure and plots a timeseries
   
   diversity_measure = sym(measure)
   
   # filter to countries of interest
   data = data %>%
-    filter(country_name %in% country)
+    filter(country_name == country)
   
   #plot
   p = data %>%
-    ggplot(aes(y = !!diversity_measure, fill = country_name, color = country_name, x = year)) +
+    ggplot(aes(y = !!diversity_measure, fill = country_name, color = country_name, x = as.numeric(year))) +
     geom_point() + 
     geom_line() + 
     labs(title = paste0("Diveristy time series, ",country, ", ", rlang::as_name(diversity_measure))) + 
+    scale_x_continuous(
+      breaks = seq(min(data$year), max(data$year), by = 1)
+    ) +
     labs(fill = "Country",
          color = "Country")
-  plot(p)
   return(p)
   
 }
-get_country_comparison_country_ts()
+
+get_diversity_ts()
 
 
 get_treemap = function(data = df_tweets, country = c("Austria"), y = "2021") {
@@ -218,13 +219,54 @@ get_treemap = function(data = df_tweets, country = c("Austria"), y = "2021") {
     labs(title = paste0("Language distribution in ", country, ", ", y)) +
     theme(legend.position = "none")
     
-  plot(p)
   return(p)
   
 }  
-
 get_treemap()
-  # add percentage and most spoken language
+
+get_top_10_langs_ts = function(data = df_tweets, country = "Austria") {
+  
+  data_filtered = data %>%
+    filter(country_name == country) %>%
+    group_by(year) %>%
+    mutate(percent = n_tweets / sum(n_tweets) * 100) %>%
+    ungroup()
+  
+  
+  # make complete
+  data_filtered = data_filtered %>%
+    select(year, ISO6393, language_name, n_tweets, percent) %>%
+    complete(year, ISO6393, language_name,
+             fill = list(n_tweets = 0, percent = 0))
+  
+  # Top 10 languages overall
+  top_langs = data_filtered %>%
+    group_by(language_name) %>%
+    summarise(tot_tweets = sum(n_tweets)) %>%
+    slice_max(tot_tweets, n = 10) %>%
+    pull(language_name)
+  
+  data_plot = data_filtered %>%
+    mutate(language_name = ifelse(language_name %in% top_langs, language_name, "*Other")) %>%
+    group_by(year, language_name) %>%
+    summarize(percent = sum(percent)) %>% ungroup()
+  
+  ggplot(data_plot, aes(x = year, y = percent, fill = language_name)) +
+    geom_area(alpha = 0.8, linewidth = 0.1, color = "white") +
+    labs(
+      title = paste("Top 10 over time in", country),
+      x = "year",
+      y = "Percent"
+    ) +
+    scale_y_continuous(labels = scales::percent_format(scale = 1)) +
+    theme_minimal() +
+    theme(legend.position = "right") + 
+    labs(fill = "language")
+}
+
+get_top_10_langs_ts(data = df_tweets)
+
+# add percentage and most spoken language
 
 # adjust naming of variables
 df_diversity = df_diversity %>% 
@@ -481,10 +523,14 @@ server = function(input, output, session) {
   output$ts = renderPlot({
     req(clicked_country(), input$selected_measure, input$selected_vis)
     if(input$selected_vis == "ts" && input$selected_measure != "Dominant Language"){
-      get_country_comparison_country_ts(country = clicked_country(), measure = input$selected_measure)
+      p = get_diversity_ts(data = df_diversity, country = clicked_country(), measure = input$selected_measure)
+    } else if(input$selected_vis == "ts" && input$selected_measure == "Dominant Language"){
+      p = get_top_10_langs_ts(data = df_tweets, country = clicked_country())
     }
+    plot(p)
   })
 
+  #treemap
   output$language_treemap = renderPlot({
     req(clicked_country(), input$selected_year)
     get_treemap(country = clicked_country(), y = input$selected_year)
