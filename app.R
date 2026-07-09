@@ -11,8 +11,6 @@ library(colorspace)
 library(plotly)
 
 
-
-
 # set theme
 theme_set(theme_bw())
 
@@ -350,26 +348,6 @@ ui = fluidPage(
                  
                )
              )
-    ), tabPanel("Language Distribution",
-                sidebarLayout(
-                  sidebarPanel(
-                    selectInput(
-                      inputId = "selected_lang",
-                      label = "Select a language:",
-                      choices = sort(unique(df_lang$language_name)),
-                      selected = "English"
-                    ),
-                    selectInput(
-                      inputId = "selected_lang_year",
-                      label = "Select a year:",
-                      choices = sort(unique(df_lang$year)),
-                      selected = 2021
-                    )
-                  ),
-                  mainPanel(
-                    leafletOutput("lang_map", height = "700px")
-                  )
-                )
     )))
 
 
