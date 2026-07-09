@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 glottocode,ISO6393,area,latitude,longitude,family,aes,language_code,language_name
 basq1248,eus,Eurasia,43.2787,-1.31622,Isolate,2,eu,Basque
 kore1280,kor,Eurasia,37.54,126.98,Koreanic,1,ko,Korean
@@ -69,3 +70,76 @@ stan1288,spa,Eurasia,40.4414,-1.11788,Indo-European,1,es,Spanish
 port1283,por,Eurasia,39.91,-8.1,Indo-European,1,pt,Portuguese
 hait1244,hat,North America,18.795135,287.863885,Indo-European,1,ht,Haitian
 stan1290,fra,Eurasia,48,2,Indo-European,1,fr,French
+=======
+language_code,language_name,ISO6393,macroarea,glottocode,latitude,longitude,aes,classification,family
+eu,Basque,eus,Eurasia,basq1248,43.2787,-1.31622,2,Isolatebasq1248,Basque
+ko,Korean,kor,Eurasia,kore1280,37.54,126.98,1,kore1284,Koreanic
+chr,Cherokee,chr,North America,cher1273,35.4664,-83.163,3,iroq1247,Iroquoian
+km,Khmer,khm,Eurasia,cent1989,12.0515,105.015,1,aust1305/khme1253,Austroasiatic
+hu,Hungarian,hun,Eurasia,hung1274,46.9068585714,19.6555271429,1,ural1272/hung1287,Uralic
+vi,Vietnamese,vie,Eurasia,viet1252,20.681188,105.774071,2,aust1305/viet1250/viet1251,Austroasiatic
+iu,Inuktitut,ike,North America,east2534,62.1735,-75.6139,2,eski1264/eski1265/inui1246,Eskimo-Aleut
+ka,Georgian,kat,Eurasia,nucl1302,41.850397,43.78613,2,kart1248/geor1252/geor1253,Kartvelian
+ja,Japanese,jpn,Eurasia,nucl1643,35,135,1,japo1237/japa1256/japa1258,Japonic
+te,Telugu,tel,Eurasia,telu1262,16.4529,78.7024,1,drav1251/sout3133/sout3139/telu1265,Dravidian
+hy,Armenian,hye,Eurasia,nucl1235,40,45,1,indo1319/clas1257/arme1241/east2768,Indo-European
+lt,Lithuanian,lit,Eurasia,lith1251,55.1429,23.9601,1,indo1319/clas1257/balt1263/east2280,Indo-European
+lv,latvian,lav,Eurasia,latv1249,56.826108,24.309118,2,indo1319/clas1257/balt1263/east2280,Indo-European
+tr,Turkish,tur,Eurasia,nucl1301,39.8667,32.8667,1,turk1311/comm1245/oghu1243/nucl1769/west2406,Turkic
+et,Estonian,ekk,Eurasia,esto1258,58.55,25.82,1,ural1272/finn1317/coas1319/neva1234/cent2329,Uralic
+ru,Russian,rus,Eurasia,russ1263,59,50,1,indo1319/clas1257/balt1263/slav1255/east1426,Indo-European
+ps,Pushto,pus,Eurasia,nucl1276,32.471766666666674,68.82763333333332,1,indo1319/clas1257/indo1320/iran1269/pash1269,Indo-European
+zh,Chinese,cmn,Eurasia,mand1415,40.0209,116.228,1,sino1245/sini1245/clas1255/midd1354/nort3155/mand1471,Sino-Tibetan
+ug,Uyghur,uig,Eurasia,uigh1240,43.88,87.38,6,turk1311/comm1245/kipc1240/uygh1241/uygh1240/uigh1243,Turkic
+fi,Finnish,fin,Eurasia,finn1318,64.7628,25.5577,1,ural1272/finn1317/coas1319/neva1234/nort3282/nucl1717,Uralic
+sk,Slovak,slk,Eurasia,slov1269,48.545705,18.78479,2,indo1319/clas1257/balt1263/slav1255/west2792/czec1260,Indo-European
+cs,Czech,ces,Eurasia,czec1258,49.873398,15.10437,1,indo1319/clas1257/balt1263/slav1255/west2792/czec1260,Indo-European
+sl,Slovenian,slv,Eurasia,slov1268,46.2543,14.7766,1,indo1319/clas1257/balt1263/slav1255/sout3147/west2804,Indo-European
+uk,Ukrainian,ukr,Eurasia,ukra1253,49.796,29.945,2,indo1319/clas1257/balt1263/slav1255/east1426/ukra1257,Indo-European
+dv,Divehi,div,Eurasia,dhiv1236,1.928498,73.54433,1,indo1319/clas1257/indo1320/indo1321/midd1375/sinh1245,Indo-European
+no,Norwegian,nor,Eurasia,norw1258,59.92,10.71,1,indo1319/clas1257/germ1287/nort3152/nort3160/west2805,Indo-European
+da,Danish,dan,Eurasia,dani1285,54.8655,9.36284,1,indo1319/clas1257/germ1287/nort3152/nort3160/sout3248,Indo-European
+am,Amharic,amh,Africa,amha1245,11.708182,39.543456,1,afro1255/semi1276/west2786/ethi1244/sout3078/amha1244,Afro-Asiatic
+ar,Arabic,arb,Eurasia,stan1318,27.9625,43.8525,1,afro1255/semi1276/west2786/cent2236/arab1394/arab1395,Afro-Asiatic
+tl,Tagalog,tgl,Papunesia,taga1270,14.06,121.747,1,aust1307/mala1545/grea1284/cent2246/taga1280/taga1269,Austronesian
+id,Indonesian,ind,Papunesia,indo1316,-7.33458,109.716,1,aust1307/mala1545/mala1554/mala1538/nucl1806/stan1327,Austronesian
+kn,Kannada,kan,Eurasia,nucl1305,13.5878,76.1198,1,drav1251/sout3133/sout3138/tami1291/bada1263/kann1259/kann1255,Dravidian
+my,Burmese,mya,Eurasia,nucl1310,20.7926,93.9665,1,sino1245/burm1265/lolo1265/burm1266/sout3159/mran1234/nucl1811,Sino-Tibetan
+bo,Tibetan,bod,Eurasia,tibe1272,28.3681,90.1872,1,sino1245/bodi1256/bodi1257/oldm1245/tibe1276/late1253/cent2346,Sino-Tibetan
+pl,Polish,pol,Eurasia,poli1260,51.8439,18.6255,1,indo1319/clas1257/balt1263/slav1255/west2792/lech1241/poli1262,Indo-European
+bg,Bulgarian,bul,Eurasia,bulg1262,43.3646,25.047,1,indo1319/clas1257/balt1263/slav1255/sout3147/east2269/mace1252,Indo-European
+si,Sinhalese,sin,Eurasia,sinh1246,8,81,1,indo1319/clas1257/indo1320/indo1321/midd1375/sinh1245/sinh1247,Indo-European
+is,Icelandic,isl,Eurasia,icel1247,63.4837,-19.0212,1,indo1319/clas1257/germ1287/nort3152/nort3160/west2805/icel1246,Indo-European
+iw,Hebrew,heb,Eurasia,hebr1245,31.1056,35.0179,1,afro1255/semi1276/west2786/cent2236/nort3165/cana1267/hebr1246,Afro-Asiatic
+cy,Welsh,cym,Eurasia,wels1247,52,-4,2,indo1319/clas1257/celt1248/nucl1715/tgbc1234/insu1254/bryt1239/oldm1247,Indo-European
+sv,Swedish,swe,Eurasia,swed1254,59.800634,17.389526,1,indo1319/clas1257/germ1287/nort3152/nort3160/nort3266/east2780/east2781,Indo-European
+el,Greek,ell,Eurasia,mode1248,38.36,23.13,1,indo1319/clas1257/grae1234/gree1276/east2798/cent2404/koin1234/mode1266/nucl1783,Indo-European
+ne,Nepali,npi,Eurasia,nepa1254,28,85,1,indo1319/clas1257/indo1320/indo1321/midd1375/cont1248/midl1245/indo1310/east1436,Indo-European
+ckb,Central Kurdish,ckb,Eurasia,cent1972,35.6539,45.8077,1,indo1319/clas1257/indo1320/iran1269/cent2317/cent2318/nort3177/laki1246/kurd1259,Indo-European
+fa,Persian,pes,Eurasia,west2369,32.9,53.3,1,indo1319/clas1257/indo1320/iran1269/sout3157/midd1352/mode1259/fars1254/fars1255,Indo-European
+nl,Dutch,nld,Eurasia,dutc1256,52,5,1,indo1319/clas1257/germ1287/nort3152/west2793/macr1270/midd1347/mode1257/glob1241,Indo-European
+ml,Malayalam,mal,Eurasia,mala1464,9.59208,76.7651,1,drav1251/sout3133/sout3138/tami1291/tami1292/tami1293/tami1294/tami1297/tami1298/mala1541,Dravidian
+it,Italian,ita,Eurasia,ital1282,43.0464,12.6489,1,indo1319/clas1257/ital1284/lati1262/lati1263/impe1234/roma1334/ital1285/ital1286/ital1287,Indo-European
+ro,Romanian,ron,Eurasia,roma1327,46.3913,24.2256,1,indo1319/clas1257/ital1284/lati1262/lati1263/impe1234/roma1334/east2714/nort3361/east2865,Indo-European
+bs,Bosnian,bos,Eurasia,bosn1245,43.859,17.046,1,indo1319/clas1257/balt1263/slav1255/sout3147/west2804/sout1528/shto1241/news1236/east2821,Indo-European
+sr,Serbian,srp,Eurasia,serb1264,44.3238,21.9192,1,indo1319/clas1257/balt1263/slav1255/sout3147/west2804/sout1528/shto1241/news1236/east2821,Indo-European
+hr,Croatian,hrv,Eurasia,croa1245,45.555,15.982,1,indo1319/clas1257/balt1263/slav1255/sout3147/west2804/sout1528/shto1241/news1236/east2821,Indo-European
+pa,Panjabi,pan,Eurasia,panj1256,30.0368,75.6702,1,indo1319/clas1257/indo1320/indo1321/midd1375/cont1248/indo1324/sind1278/lahn1241/east2727,Indo-European
+sd,Sindhi,snd,Eurasia,sind1272,26,69,3,indo1319/clas1257/indo1320/indo1321/midd1375/cont1248/indo1324/sind1278/sind1279/sind1282,Indo-European
+gu,Gujarati,guj,Eurasia,guja1252,22.687,71.0962,1,indo1319/clas1257/indo1320/indo1321/midd1375/cont1248/midl1245/apab1234/guja1255/guja1256,Indo-European
+bn,Bengali,ben,Eurasia,beng1280,24,90,1,indo1319/clas1257/indo1320/indo1321/midd1375/cont1248/indo1323/oriy1254/gaud1237/gaud1238,Indo-European
+or,Oromo,gax,Africa,bora1271,1.05676,37.882,1,afro1255/cush1243/east2699/lowl1267/sout3055/main1283/nucl1701/nucl1736/cent2302/cent2424,Afro-Asiatic
+lo,Lao,lao,Eurasia,laoo1244,19,102.46,2,taik1256/kamt1241/daic1238/daic1237/cent2251/wenm1239/sapa1255/sout3184/sput1235/laot1235,Tai-Kadai
+th,Thai,tha,Eurasia,thai1261,14.192,100.671,1,taik1256/kamt1241/daic1238/daic1237/cent2251/wenm1239/sapa1255/sout3184/sput1235/laot1235,Tai-Kadai
+ta,Tamil,tam,Eurasia,tami1289,10.520219,78.825989,1,drav1251/sout3133/sout3138/tami1291/tami1292/tami1293/tami1294/tami1297/tami1298/tami1299/tami1300,Dravidian
+ca,Catalan,cat,Eurasia,stan1289,41.453,1.569,2,indo1319/clas1257/ital1284/lati1262/lati1263/impe1234/roma1334/ital1285/west2813/shif1234/sout3183,Indo-European
+mr,Marathi,mar,Eurasia,mara1378,17.9344,76.6665,1,indo1319/clas1257/indo1320/indo1321/midd1375/cont1248/indo1325/mara1416/mara1422/oldm1248/mode1268,Indo-European
+hi,Hindi,hin,Eurasia,hind1269,25,77,1,indo1319/clas1257/indo1320/indo1321/midd1375/cont1248/midl1245/shau1239/indo1322/west2812/hind1270,Indo-European
+ur,Urdu,urd,Eurasia,urdu1245,25,67,1,indo1319/clas1257/indo1320/indo1321/midd1375/cont1248/midl1245/shau1239/indo1322/west2812/hind1270,Indo-European
+de,German,deu,Eurasia,stan1295,48.649,12.4676,1,indo1319/clas1257/germ1287/nort3152/west2793/high1289/high1286/midd1349/mode1258/uppe1464/glob1243,Indo-European
+en,English,eng,Africa;Eurasia;South America,stan1293,53,-1,1,indo1319/clas1257/germ1287/nort3152/west2793/nort3175/angl1264/angl1265/late1254/merc1242/macr1271,Indo-European
+es,Spanish,spa,Eurasia,stan1288,40.4414,-1.11788,1,indo1319/clas1257/ital1284/lati1262/lati1263/impe1234/roma1334/ital1285/west2813/shif1234/sout3183/west2838/cast1243,Indo-European
+pt,Portuguese,por,Eurasia,port1283,39.91,-8.1,1,indo1319/clas1257/ital1284/lati1262/lati1263/impe1234/roma1334/ital1285/west2813/shif1234/sout3183/west2838/gali1263/macr1272/braz1247,Indo-European
+ht,Haitian,hat,North America,hait1244,18.795135,-72.136115,1,indo1319/clas1257/ital1284/lati1262/lati1263/impe1234/roma1334/ital1285/west2813/shif1234/nort3208/gall1280/oila1234/cent2283/macr1273/circ1240,Indo-European
+fr,French,fra,Eurasia,stan1290,48,2,1,indo1319/clas1257/ital1284/lati1262/lati1263/impe1234/roma1334/ital1285/west2813/shif1234/nort3208/gall1280/oila1234/cent2283/macr1273/glob1239,Indo-European
+>>>>>>> Stashed changes

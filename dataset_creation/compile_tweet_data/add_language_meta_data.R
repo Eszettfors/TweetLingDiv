@@ -1,5 +1,4 @@
 library(tidyverse)
-library(lingtypology)
 
 # this script adds language meta data from glottolog
 
