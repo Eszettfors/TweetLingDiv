@@ -6,7 +6,7 @@ The datset is a derivative of the UNT tweet archive, which we accessed using the
 
 The country individual datasets are then combined from the script `dataset_creation/compile_country_data.R` and country and language data is added from the linguistic database Glottolog and rnaturalearth.  
 
-Diversity measures according to the Leinster-cobbold framework are calculated with the scripts in `dataset_creation/diversity_measures/. First load the linguistic databases Glottolog and ASJP and process them using the scripts in `dataset_creation/databaseprocessing`.
+Diversity measures according to the Leinster-cobbold framework are calculated with the scripts in `dataset_creation/diversity_measures/`. First load the linguistic databases Glottolog and ASJP and process them using the scripts in `dataset_creation/databaseprocessing`.
 
 ### Access the data
 The dataset can be found in `data/final_dataset` or at Zenodo: https://zenodo.org/records/19332457
