@@ -259,7 +259,7 @@ get_top_10_langs_ts = function(data = df_tweets, country = "Austria") {
     scale_y_continuous(labels = scales::percent_format(scale = 1)) +
     theme_minimal() +
     theme(legend.position = "right") + 
-    labs(fill = "language")
+    labs(fill = "Language")
 }
 
 get_top_10_langs_ts(data = df_tweets)
@@ -271,9 +271,9 @@ df_diversity = df_diversity %>%
   rename("Richness" = "richness",
          "Exponent Shannon" = "exp_shannon",
          "Inverse Simpson" = "inv_simpson",
-         "Diversity (q=0)" = "div_q_0",
-         "Diversity (q=1)" = "div_q_1",
-         "Diversity (q=2)" = "div_q_2",
+         "Lexical Diversity (q=0)" = "div_q_0",
+         "Lexical Diversity (q=1)" = "div_q_1",
+         "Lexical Diversity (q=2)" = "div_q_2",
          "Number of Tweets" = "tot_tweets",
          "Dominant Language" = "dominant_language")
 
@@ -295,7 +295,7 @@ ui = fluidPage(
                    label = "Select a measure to visualize:",
                    choices = c(
                      "Richness", "Exponent Shannon", "Inverse Simpson",
-                     "Diversity (q=0)", "Diversity (q=1)",
+                     "Lexical Diversity (q=0)", "Lexical Diversity (q=1)",
                      "Lexical Diversity (q=2)", "Number of Tweets", "Dominant Language"
                    ),
                    selected = "Dominant Language"
