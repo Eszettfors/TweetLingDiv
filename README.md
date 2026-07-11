@@ -14,3 +14,7 @@ The dataset can be found in `data/final_dataset` or at Zenodo: https://zenodo.or
 
 ### Explore the data
 We have developed an Shiny Dashboard to allow easy exploration of data. Run app.R locally.
+
+### Citation
+If you use the data, please cite:
+Essfors, H. (2026). TweetLingDiv [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.19332457
