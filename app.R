@@ -348,7 +348,18 @@ ui = fluidPage(
                  
                )
              )
-    )))
+    ),
+    tabPanel("About",
+              h3("About this dashboard"),
+              p("This dashboard was created to visualize the TweetLingDiv dataset and showcase how the linguistic diversity on Twitter has developed from 2012 and 2021. The underlying data is a derivative on the UNT geotweet Archive (Feng et al., 2023) which collects geotagged tweet, and we counted the number of tweets
+              in each language across country and year to derive measures of diversity. The data was processed by Hannes Essfors who is the owner and maintainer of the dashboard and reserves all rights. Linguistic Diversity was calculated according to the Leinster-cobbold framework (2012). For more information, please see
+               Essfors (2025). The dataset can be accessed through Zenodo: https://zenodo.org/records/18257720. The dataset should be cited as: Essfors, H. (2026). TweetLingDiv [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.19332457"),
+              p("If you want to cite the dashboard directly, please use: Essfors, H (2026). The Global Digital Linguistic Diversity (twitter) Dashboard [Shiny web application]"),
+              p("1. Yunhe Feng, Zexuan Meng, Colton Clemmer, Heng Fan, and Yan Huang. 2023. Data and Resources Paper: A Multi-granularity Decade-Long Geo-Tagged Twitter Dataset for Spatial Computing. In Proceedings of the 31st ACM International Conference on Advances in Geographic Information Systems (SIGSPATIAL '23). Association for Computing Machinery, New York, NY, USA, Article 104, 1–4. https://doi.org/10.1145/3589132.3625654"),
+              p("2. Essfors, H. (2025). Global linguistic diversity – Adapting the Leinster-Cobbold framework from ecology for humanities research. In T. Arnold, M. Fantoli, & R. Ros (Eds.), Anthology of Computers and the Humanities (Vol. 3, pp. 653–669). Association for Computers and the Humanities. https://doi.org/10.63744/srhQaCwGo5mj"),
+
+    )
+    ))
 
 
 # Server
