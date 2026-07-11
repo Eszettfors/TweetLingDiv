@@ -3,7 +3,7 @@ library(rnaturalearth)
 library(rnaturalearthdata)
 library(sf)
 library(ggrepel)
-library(xtable())
+library(xtable)
 
 # this script aims to give a first description of the data collected
 
