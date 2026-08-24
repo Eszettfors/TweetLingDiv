@@ -31,7 +31,6 @@ df = df %>%
                    TRUE ~ language))
 
 # merge the number of tweets in cases of cooccurance
-
 df = df %>%
   group_by(country, year, language) %>%
   summarize(n_tweets = sum(n_tweets))

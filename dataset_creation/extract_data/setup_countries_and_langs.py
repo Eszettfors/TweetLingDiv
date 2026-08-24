@@ -1,10 +1,10 @@
 import re
 import pandas as pd
 
-# this file sets up two lists with countries and languages available in UNT which where extracted from the webpages HTLM
+# this file sets up two lists with countries and languages available in UNT which where extracted from the webpages HTML
 
 # define path and file names
-path = "/Users/hannes/Projekt/Dig_ling_div_UNT/data/"
+path = "/data/"
 country_file = "raw/countries.txt"
 language_file = "raw/languages.txt"
 

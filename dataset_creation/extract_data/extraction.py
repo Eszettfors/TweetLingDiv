@@ -7,12 +7,12 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import concurrent.futures
 import os
 # this script loops through all countries, languages and years and extracts the number of tweets, storing it in a 
-# pandas dataframe. The pandas dataframe is then exported as as csv
+# pandas dataframe. The pandas dataframe is then exported as .csv
 
-data_path = "/Users/hannes/Projekt/Dig_ling_div_UNT/data/processed"
-countries = pd.read_csv("/Users/hannes/Projekt/Dig_ling_div_UNT/data/processed/country_codes.csv")
-languages = pd.read_csv("/Users/hannes/Projekt/Dig_ling_div_UNT/data/processed/language_codes.csv")
-country_data_path = "/Users/hannes/Projekt/Dig_ling_div_UNT/data/country_data"
+data_path = "/data/processed"
+countries = pd.read_csv("/data/processed/country_codes.csv")
+languages = pd.read_csv("/data/processed/language_codes.csv")
+country_data_path = "/data/country_data/"
 
 
 # fix namibia
@@ -198,9 +198,6 @@ df.to_csv("/Users/hannes/Projekt/Dig_ling_div_UNT/data/processed/test_data.csv",
 
 
 # run export one country for every country that has not been processed
-
-
-
 for country in get_countries_missing():
     get_country_progress()
     if len(get_countries_missing()) == 0:
