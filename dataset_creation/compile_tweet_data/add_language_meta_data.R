@@ -29,6 +29,9 @@ df_full = df_glotto %>%
 df_full = df_full %>%
   rename("language_code" = ISO6391)
 
+df_full %>%
+  filter(language_name == "Hebrew")
+
 # two cases of duplicates -> he and in; these should be hebrew and ID
 # -> remove
 df_full = df_full %>% 
